@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Insta Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <main>
+        <!-- Card -->
+        <div class="card-container animate__animated animate__bounceIn">
+            <!-- QR Code -->
+            <div class="qrCode-container">
+                <img src="images/qrcode.png" alt="QR code instagram" id="qrcode">
+            </div>
+            <!-- Botão compartilhar e Link -->
+            <div class="botao-container">
+                <button class="botoes" id="compartilharPerfilButton">
+                    <img src="images/icone-compartilhar.png" alt="ícone compartilhar">
+                    <span>Compartilhar perfil</span>
+                </button>
+        
+                <button class="botoes" onclick="copiarLink()" id="copiarLinkBtn">
+                    <img src="images/icone-link.png" alt="ícone link">
+                    <span id="copiarLink">Copiar link</span>
+                </button>
+            </div>
+
+            <h1>
+                CONHEÇA A<br>
+                <strong>
+                    Jornada de<br>
+                    Programador
+                </strong>
+            </h1>
+
+            <div id="foguete"><img src="images/foguete.png" alt="ícone de um foguete"></div>
+        </div>
+
+    </main>
+
+    <script src="js/events.js"></script>
+
+</body>
+</html>
