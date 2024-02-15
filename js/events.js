@@ -3,7 +3,7 @@ compartilhar.onclick = function() {
     código
 }
 */
-const URL_INSTAGRAM = "https://www.instagram.com/jornadadeprogramador/"
+const URL_INSTAGRAM = "https://www.instagram.com/jose_vitormoraes/"
 
 let compartilhar = document.getElementById("compartilharPerfilButton")
 
